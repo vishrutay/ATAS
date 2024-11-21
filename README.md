@@ -10,19 +10,19 @@ Parts of this codebase are adapted from the following sources:
 - Functions detect_silence_t and detect_nonsilent_t: Adapted from James Robert's implementation in their repository: pydub [https://github.com/jiaaro/pydub/blob/master/pydub/silence.py]
 
 Dependencies (version dependent)
- Python version: 3.7.6
+ Python version: 3.7.6  
 
-noisereduce: 3.0.2 
-scipy: 1.7.3
-matplotlib: 3.5.3
-librosa: 0.10.1
-numpy: 1.21.6
-pydub: 0.25.1 
-pandas: 1.0.1
-sklearn: 1.0.2
-tensorflow: 2.11.0
-IPython: 7.12.0
-glob: 0.7    
+noisereduce: 3.0.2  
+scipy: 1.7.3  
+matplotlib: 3.5.3  
+librosa: 0.10.1  
+numpy: 1.21.6  
+pydub: 0.25.1  
+pandas: 1.0.1  
+sklearn: 1.0.2  
+tensorflow: 2.11.0  
+IPython: 7.12.0  
+glob: 0.7      
 
 Pre-processing steps in audio files in the dataset used for this project:
 - Pre-processed the audio files by clipping to remove extraneous content before and after the reading task.
