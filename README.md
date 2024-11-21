@@ -9,8 +9,8 @@ Yawatkar, V., Chow, H. M., & Usler, E. R. (2023). Automatic Temporal Analysis of
 Parts of this codebase are adapted from the following sources:
 - Functions detect_silence_t and detect_nonsilent_t: Adapted from James Robert's implementation in their repository: pydub [https://github.com/jiaaro/pydub/blob/master/pydub/silence.py]
 
-Dependencies (version dependent)
- Python version: 3.7.6  
+Dependencies (version dependent)  
+Python version: 3.7.6  
 
 noisereduce: 3.0.2  
 scipy: 1.7.3  
@@ -33,7 +33,7 @@ Pre-processing steps in audio files in the dataset used for this project:
 Output parameters in ATAS:
 Notebooks: ‘Streamlined_ATAS_AWNS’ and ‘Streamlined_ATAS_AWS’ 
 
-# Description of columns in the compiled CSV file 
+# Description of columns in the compiled csv file 
 
 'File_Name' - name of the file e.g. 'C1_DS.wav'  
 'Speech Time Threshold_ms' - minimum speech event selection threshold (temporal)  
@@ -76,7 +76,7 @@ e.g. '24fa_f.csv'
 
 Notebook: ‘Compute_long_and_short_pause_stats_updated’   
 
-# Description of columns in the compiled CSV file  
+# Description of columns in the compiled csv file  
 
  
 'File_Name' - name of the file e.g. 'C1_DS.wav'  
