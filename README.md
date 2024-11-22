@@ -1,7 +1,6 @@
 # ATAS
 A pipeline for automatic detection of silent pauses in speech 
-
-![image](https://github.com/user-attachments/assets/7736071d-987b-48d0-9c5c-3822243fc1f2)
+![image](https://github.com/user-attachments/assets/95824fbf-192a-43f0-af08-750b298eaf84)
 
 
 # Citation 
