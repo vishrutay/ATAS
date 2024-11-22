@@ -1,6 +1,8 @@
 # ATAS
 A pipeline for automatic detection of silent pauses in speech 
 
+The figure below depicts audio data from a reading sample in the open-source FluencyBank dataset recorded from a participant.  
+
 ![image](https://github.com/user-attachments/assets/95824fbf-192a-43f0-af08-750b298eaf84)  
 
 
