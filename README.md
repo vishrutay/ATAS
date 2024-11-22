@@ -30,7 +30,7 @@ glob: 0.7
 Pre-processing steps in audio files in the dataset used for this project:
 - Pre-processed the audio files by clipping to remove extraneous content before and after the reading task.
 - For AWNS participants, who read passages from a computer screen and pressed the spacebar once during the reading, the resulting key press noise varied in duration but never exceeded 2 seconds. To maintain consistency across all files, a 2-second segment was systematically removed from each recording, including AWS files, ensuring uniformity in the pre-processing procedure.
-
+- The sampling rate for all the acoustic files utilized was 48 kHz. This version of ATAS is optimized for operation at the specified sampling rate.  
 
 
 Output parameters in ATAS:
