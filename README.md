@@ -1,7 +1,7 @@
 # ATAS
 A pipeline for automatic detection of silent pauses in speech 
 
-The figure below depicts audio data from a reading sample in the open-source FluencyBank dataset recorded from a participant.  
+The figure below depicts audio data from a reading sample in the open source FluencyBank dataset recorded from a participant.  
 
 ![image](https://github.com/user-attachments/assets/95824fbf-192a-43f0-af08-750b298eaf84)  
 
@@ -30,6 +30,7 @@ IPython: 7.12.0
 glob: 0.7      
 
 Pre-processing steps in audio files in the dataset used for this project:
+- Dataset comprissed of AWNS (18) and AWS (17) participant acoustic data. AWNS data was obtained from the open source FluencyBank dataset. AWS data was collect at the Interpersonal Neurophysiology Lab at UD. 12 out of 17 participants provided permission to share their data.  
 - Pre-processed the audio files by clipping to remove extraneous content before and after the reading task.
 - For AWNS participants, who read passages from a computer screen and pressed the spacebar once during the reading, the resulting key press noise varied in duration but never exceeded 2 seconds. To maintain consistency across all files, a 2-second segment was systematically removed from each recording, including AWS files, ensuring uniformity in the pre-processing procedure.
 - The sampling rate for all the acoustic files utilized was 48 kHz. This version of ATAS is optimized for operation at the specified sampling rate.  
