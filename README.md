@@ -14,6 +14,7 @@ Yawatkar, V., Chow, H. M., & Usler, E. R. (2023). Automatic Temporal Analysis of
 Parts of this codebase are adapted from the following sources:
 - Functions detect_silence_t and detect_nonsilent_t: Adapted from James Robert's implementation in their repository: pydub [https://github.com/jiaaro/pydub/blob/master/pydub/silence.py]
 
+# Dependencies  
 Dependencies (version dependent)  
 Python version: 3.7.6  
 
