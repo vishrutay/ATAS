@@ -11,10 +11,10 @@ The output files from ATAS_Multiple_Files_Analysis codes: Streamlined_ATAS_AWNS.
 are used an input for Compute_long_and_short_pause_stats.ipynb.   
 They are:  
 Output file from Streamlined_ATAS_AWNS.ipynb:
-AWNS_All_files_together_50_ms_1_win_50_150_csv.csv (The description of the columns can be found in ATAS/README.md)  
+ATAS/Stat_csv_files/AWNS_All_files_together_50_ms_1_win_50_150_csv.csv (The description of the columns can be found in ATAS/README.md)  
 
 Output file from Streamlined_ATAS_AWS.ipynb:
-AWS_All_files_together_50_ms_1_win_50_150_csv.csv (The description of the columns can be found in ATAS/README.md)  
+ATAS/Stat_csv_files/AWS_All_files_together_50_ms_1_win_50_150_csv.csv (The description of the columns can be found in ATAS/README.md)  
 
 Additionally, individual time-series data files derived from each participant data file are also used as an input 
 to compute long and short pause information.   
@@ -22,6 +22,8 @@ to compute long and short pause information.
 
 Also, % Syllable Stuttered (%SS) data is stored in the ATAS/Stat_csv_files/AWS_SSI_details.csv file which 
 is used to incorporate the %SS data along with all the ATAS derived data including the long and short pause data. 
+
+Also, ATAS/Stat_csv_files/AWNS_details.csv and ATAS/Stat_csv_files/AWS_details.csv files which provide participant details.   
 
 -------------------------------------------
 
