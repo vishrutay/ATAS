@@ -18,11 +18,12 @@ AWS_All_files_together_50_ms_1_win_50_150_csv.csv (The description of the column
 
 Additionally, individual time-series data files derived from each participant data file are also used as an input 
 to compute long and short pause information.   
-(ATAS/ATAS_Multiple_Files_Analysis/Individual_OutputCSV_Files) e.g. 24fa_f.csv
+(ATAS/ATAS_Multiple_Files_Analysis/Individual_OutputCSV_Files) e.g. 24fa_f.csv  
 
 Also, % Syllable Stuttered (%SS) data is stored in the ATAS/Stat_csv_files/AWS_SSI_details.csv file which 
 is used to incorporate the %SS data along with all the ATAS derived data including the long and short pause data. 
-------------------------------------------  
+
+-------------------------------------------
 
 The output file for Compute_long_and_short_pause_stats.ipynb is ATAS/Stat_csv_files/AWNS_AWS_all_details.csv  
 which provides comprehensive data associated with each participant data file incorporated with the pre-calculated 
