@@ -1,9 +1,20 @@
 # ATAS
-A pipeline for automatic detection of silent pauses in speech 
+A pipeline for automatic detection of silent pauses in speech  
+(...and much more)
+
 
 The figure below depicts audio data from a reading sample in the open source FluencyBank dataset recorded from a participant.  
 
 ![image](https://github.com/user-attachments/assets/95824fbf-192a-43f0-af08-750b298eaf84)  
+
+
+ATAS is designed to automatically detect silent pauses in speech and analyze them. It allows users to customize settings, such as thresholds for detecting pauses and vocal sounds (events), to suit different needs. In addition to identifying pauses, it calculates detailed statistics, like the average duration of pauses, their total count, and more. These results are saved as summary files (CSV) and separate files for each audio recording, showing the exact timing of detected pauses and vocal events.
+
+The pipeline can also divide pauses into "long" and "short" categories based on a threshold you can customize, with separate statistics provided for each. It’s capable of incorporating clinically relevant data, such as % Syllable Stuttered (%SS), for a deeper understanding of the speech patterns.  
+
+In this context, ATAS metrics are used to analyze speech data from adults who stutter (AWS) and adults who do not stutter (AWNS). Machine learning models, including Random Forest and Decision Trees, utilize these metrics to classify participants as AWS or AWNS based on their speech data, such as reading a passage. Additionally, combining ATAS metrics with time-series data enables the use of LSTM or Long Short-Term Memory models (a type recurrent neural network model specifically designed to process and analyze sequential data, such as time series) for the same classification task.    
+
+# This pipeline offers a user-friendly and flexible solution for understanding speech patterns and analyzing stuttering-related metrics (in this context) or any other user-defined metrics, making it valuable for both research and clinical purposes.    
 
 
 # Citation 
@@ -37,10 +48,10 @@ Pre-processing steps in audio files in the dataset used for this project:
 - The sampling rate for all the acoustic files utilized was 48 kHz. This version of ATAS is optimized for operation at the specified sampling rate.  
 
 
-Output parameters in ATAS:
+# Output parameters in ATAS:
 Notebooks: ‘Streamlined_ATAS_AWNS’ and ‘Streamlined_ATAS_AWS’ 
 
-# Description of columns in the compiled csv file 
+# Description of columns in the compiled csv file ((without long and short pause details)
 
 'File_Name' - name of the file e.g. 'C1_DS.wav'  
 'Speech Time Threshold_ms' - minimum speech event selection threshold (temporal)  
@@ -61,7 +72,10 @@ Notebooks: ‘Streamlined_ATAS_AWNS’ and ‘Streamlined_ATAS_AWS’
 'CV Pause'- Covariate of variation metric of all the pause event durations  
 
 
-Output parameters in the individual CSV file (time series data for each acoustic file after ATAS processing)  
+# Output parameters in the individual CSV file  
+(Time series data for each acoustic file after ATAS processing)  
+
+Notebooks: ‘Streamlined_ATAS_AWNS’ and ‘Streamlined_ATAS_AWS’  
 
 # Description of columns in individual participant time series data csv file  
 e.g. '24fa_f.csv'  
@@ -79,11 +93,12 @@ e.g. '24fa_f.csv'
 'Time_diff' - Duration of the detected event (in seconds)  
 
 
-# Long Short Pause analysis and incorporation of pre-calculated SSI-4 score metric - Stuttering Severity %SS   
+# Long Short Pause analysis and incorporation of pre-calculated SSI-4 score metric - Stuttering Severity %SS     
 
-Notebook: ‘Compute_long_and_short_pause_stats_updated’   
+Notebook: ‘Compute_long_and_short_pause_stats’    
 
-# Description of columns in the compiled csv file  
+# Description of columns in the compiled csv file (with long and short pause details)  
+(ATAS/Stat_csv_files/AWNS_AWS_all_details.csv)  
 
  
 'File_Name' - name of the file e.g. 'C1_DS.wav'  
