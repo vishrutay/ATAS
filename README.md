@@ -2,7 +2,7 @@
 A pipeline for automatic detection of silent pauses in speech  
 (...and much more)
 
-# This pipeline offers a user-friendly and flexible solution for understanding speech patterns and analyzing stuttering-related metrics (in this context) or any other user-defined metrics, making it valuable for both research and clinical purposes.   
+# This pipeline offers a user-friendly and flexible solution for understanding temporal speech patterns and analyzing stuttering-related metrics (in this context) or any other user-defined metrics, making it valuable for both research and clinical purposes.   
 
 
 The figure below shows audio data from a reading sample in the open-source FluencyBank dataset, recorded from a participant, with color-coded ATAS-detected events.   
