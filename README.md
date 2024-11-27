@@ -52,6 +52,9 @@ Pre-processing steps in audio files in the dataset used for this project:
 Notebooks: ‘Streamlined_ATAS_AWNS’ and ‘Streamlined_ATAS_AWS’ 
 
 # Description of columns in the compiled csv file (without long and short pause details)
+Filename: (ATAS/Stat_csv_files/AWNS_All_files_together_50_ms_1_win_50_150_csv.csv)  
+Filename: (ATAS/Stat_csv_files/AWS_All_files_together_50_ms_1_win_50_150_csv.csv)  
+
 
 'File_Name' - name of the file e.g. 'C1_DS.wav'  
 'Speech Time Threshold_ms' - minimum speech event selection threshold (temporal)  
@@ -98,7 +101,7 @@ e.g. '24fa_f.csv'
 Notebook: ‘Compute_long_and_short_pause_stats’    
 
 # Description of columns in the compiled csv file (with long and short pause details)  
-(ATAS/Stat_csv_files/AWNS_AWS_all_details.csv)  
+Filename: (ATAS/Stat_csv_files/AWNS_AWS_all_details.csv)  
 
  
 'File_Name' - name of the file e.g. 'C1_DS.wav'  
