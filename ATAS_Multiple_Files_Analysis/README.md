@@ -8,11 +8,11 @@ Inputs required:  (Also refer to the ATAS/Stat_csv_files folder)
 Pre-processed (if required - as in this ptoject) acoustic files/ original acoustic data files. 
 
 Input file for Streamlined_ATAS_AWNS.ipynb:
-AWNS_details.csv
+AWNS_input.csv
 (File contains start time (Start_time) and end time (optional) inputs based on the length of original file to be analyzed/ inputs for trimming the original file)
 
 Input file for Streamlined_ATAS_AWS.ipynb:
-AWS_details.csv
+AWS_input.csv
 (File contains start time (Start_time) and end time (optional) inputs based on the length of original file to be analyzed/ inputs for trimming the original file)
 
 ------------------------------------------  
