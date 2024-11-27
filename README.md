@@ -2,6 +2,7 @@
 A pipeline for automatic detection of silent pauses in speech  
 (...and much more)
 
+# This pipeline offers a user-friendly and flexible solution for understanding speech patterns and analyzing stuttering-related metrics (in this context) or any other user-defined metrics, making it valuable for both research and clinical purposes.   
 
 The figure below depicts audio data from a reading sample in the open source FluencyBank dataset recorded from a participant.  
 
@@ -12,9 +13,7 @@ ATAS is designed to automatically detect silent pauses in speech and analyze the
 
 The pipeline can also divide pauses into "long" and "short" categories based on a threshold you can customize, with separate statistics provided for each. It’s capable of incorporating clinically relevant data, such as % Syllable Stuttered (%SS), for a deeper understanding of the speech patterns.  
 
-In this context, ATAS metrics are used to analyze speech data from adults who stutter (AWS) and adults who do not stutter (AWNS). Machine learning models, including Random Forest and Decision Trees, utilize these metrics to classify participants as AWS or AWNS based on their speech data, such as reading a passage. Additionally, combining ATAS metrics with time-series data enables the use of LSTM or Long Short-Term Memory models (a type recurrent neural network model specifically designed to process and analyze sequential data, such as time series) for the same classification task.    
-
-# This pipeline offers a user-friendly and flexible solution for understanding speech patterns and analyzing stuttering-related metrics (in this context) or any other user-defined metrics, making it valuable for both research and clinical purposes.    
+In this context, ATAS metrics are used to analyze speech data from adults who stutter (AWS) and adults who do not stutter (AWNS). Machine learning models, including Random Forest and Decision Trees, utilize these metrics to classify participants as AWS or AWNS based on their speech data, such as reading a passage. Additionally, combining ATAS metrics with time-series data enables the use of LSTM or Long Short-Term Memory models (a type recurrent neural network model specifically designed to process and analyze sequential data, such as time series) for the same classification task.      
 
 
 # Citation 
