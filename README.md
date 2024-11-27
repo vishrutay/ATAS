@@ -51,7 +51,7 @@ Pre-processing steps in audio files in the dataset used for this project:
 # Output parameters in ATAS:
 Notebooks: ‘Streamlined_ATAS_AWNS’ and ‘Streamlined_ATAS_AWS’ 
 
-# Description of columns in the compiled csv file ((without long and short pause details)
+# Description of columns in the compiled csv file (without long and short pause details)
 
 'File_Name' - name of the file e.g. 'C1_DS.wav'  
 'Speech Time Threshold_ms' - minimum speech event selection threshold (temporal)  
