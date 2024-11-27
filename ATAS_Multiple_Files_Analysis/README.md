@@ -4,7 +4,7 @@ Streamlined_ATAS_AWNS.ipynb and Streamlined_ATAS_AWS.ipynb
 Analyze multiple acoustic files in a loop to provide a compiled output csv file for all the participant data files. 
 
 ------------------------------------------  
-Inputs required:  
+Inputs required:  (Also refer to the ATAS/Stat_csv_files folder)  
 Pre-processed (if required - as in this ptoject) acoustic files/ original acoustic data files. 
 
 Input file for Streamlined_ATAS_AWNS.ipynb:
