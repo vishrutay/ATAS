@@ -1,4 +1,4 @@
-# Stattistics and Table Data 
+# Statistics and Table Data 
 Group_statistics.ipnyb includes checking our model assumptions for all the 13 metrics. Based on the seven ATAS metrics and the additional six - long and short pause metrics which we focus on, we have used the GLM models on continuous data, and negative binomial models for all count data.  
 This file provides all the Table outputs in the paper (Tables 1, 2, and 3).  
 For inputs refer to ATAS/Stat_csv_files folder:  
