@@ -1,12 +1,12 @@
-# **Reproducing the Results and Using the ATAS Code for Independent Datasets**
+# Reproducing the Results and Using the ATAS Code for Independent Datasets  
 
 This document provides a comprehensive guide to using the **Automatic Temporal Analysis of Speech (ATAS) pipeline**, either for **reproducing the results of this study** or for **adapting the code to independent datasets**.
   
 ---
   
-## **1. Reproducing the Results in This Study**  
+## 1. Reproducing the Results in This Study   
   
-### **1.1 Prerequisites**  
+### 1.1 Prerequisites   
 - **Required Dependencies**:  
 Python version: 3.7.6  
   
@@ -22,12 +22,12 @@ tensorflow: 2.11.0
 IPython: 7.12.0  
 glob: 0.7   
   
-### **1.2 Data Availability and Preprocessing**  
+### 1.2 Data Availability and Preprocessing   
 - The compelete derived dataset is available to replicate the analysis.  
 - If access to the raw data is available, preprocessing steps (such as clipping and removing extraneous noise) can be followed as described in the dataset documentation (ATAS/README.md).  
 - Otherwise, users can proceed directly with the derived data files.  
   
-### **1.3 Steps for Running the Analysis**  
+### 1.3 Steps for Running the Analysis  
   
 1. **Prepare the Input Files**:  
    - AWS Data: `AWS_input.csv`  
@@ -47,23 +47,23 @@ glob: 0.7
    - Run `Group_statistics.ipynb` for model assumption checks as well as generating models (in this case specific GLMs and Negative Binomial models).  
    - Run `Figure_9_DT.ipynb`, `Figure_9_RF.ipynb`, and `Figure_10_LSTM.ipynb` for ML analysis. This includes decision tree, random forest and long short-term memomry (LSTM) models.  
   
-### **1.4 Expected Outputs**  
+### 1.4 Expected Outputs  
 - Compiled statistical CSV files.  
 - Figures and tables for publication.  
 - ML model results (Decision Trees, Random Forest, LSTM).  
   
 ---  
   
-## **2. Using the Code for an Independent Dataset**  
+## 2. Using the Code for an Independent Dataset    
   
-### **2.1 Data Preparation**  
+### 2.1 Data Preparation  
 - Ensure that input audio files have a **sampling rate of 48 kHz**.  
 - Format the dataset with metadata similar to `AWS_input.csv` and `AWNS_input.csv`.  
 - If preprocessing is needed:  
   - Trim extraneous content.  
   - Save files in WAV format.  
   
-### **2.2 Running the Analysis on a New Dataset**  
+### 2.2 Running the Analysis on a New Dataset   
 1. **Format Input Files**:  
    - Create CSV files with `Start_time` and `End_time` for trimming.  
    - Place them in `ATAS/Stat_csv_files/`.  
@@ -78,7 +78,7 @@ glob: 0.7
    - Modify machine learning scripts to train models on new data if applicable.  
    - You can run `Figure_9_DT.ipynb`, `Figure_9_RF.ipynb`, and `Figure_10_LSTM.ipynb` for ML analysis. This includes decision tree, random forest and long short-term memomry (LSTM) models.  
   
-### **2.3 Expected Outputs for Independent Dataset**  
+### 2.3 Expected Outputs for Independent Dataset  
 - CSV files with extracted speech and pause metrics (Cumulative event data for each participant file).
 - Time-series data for individual participants (Details about every event).  
 - Figures visualizing key metrics.  
@@ -86,7 +86,7 @@ glob: 0.7
   
 ---  
   
-## **3. Code Overview**  
+# 3. Code Overview  
   
 | File/Folder | Description |  
 |------------|-------------|  
