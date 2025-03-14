@@ -49,3 +49,9 @@ Output file from Compute_long_and_short_pause_stats.ipynb:
 AWNS_AWS_all_details.csv 
 (The description of the columns can be found in ATAS/README.md)   
 
+-----------------------------------------------  
+Input file for Figure_5_6_7_8.ipynb (This file contains the group analysis details (GLMs and Neg Binomial models) for all the 13 metrcis for the predictor Group):
+pval.csv
+Columns: 'Metric', 'Predictor',	'Coefficient',	'Std Error',	'z-value',	'p-value',	'Model Type'  
+The relevant column for analysis: 'p-value'
+
