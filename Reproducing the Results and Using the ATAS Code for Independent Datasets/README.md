@@ -92,18 +92,13 @@ glob: 0.7
 |------------|-------------|  
 | `Dataset_statistics/` | Provides dataset comparison and summary statistics. |  
 | `Dataset_statistics/Comparing_groups_balanced_dataset.ipynb` | Checks for dataset balance (Age and Sex distribution) |  
-  
 | `ATAS/Stat_csv_files/` | Contains input and output CSV files. |  
-  
 | `ATAS_Multiple_Files_Analysis/` | Processes multiple acoustic files in a loop. |  
-| `ATAS_Multiple_Files_Analysis/Streamlined_ATAS_AWNS.ipynb` | Processes AWNS audio files, extracting speech and pause metrics. |   
+| `ATAS_Multiple_Files_Analysis/Streamlined_ATAS_AWNS.ipynb` | Processes AWNS audio files, extracting speech and pause metrics. |
 | `ATAS_Multiple_Files_Analysis/Streamlined_ATAS_AWS.ipynb` | Processes AWS audio files, extracting speech and pause metrics. |  
-  
-| `Long_Pause_Short_Pause_Compute/` | Computes additional metrics related to long and short pauses. |                                                       
+| `Long_Pause_Short_Pause_Compute/` | Computes additional metrics related to long and short pauses. |                            
 | `Long_Pause_Short_Pause_Compute/Compute_long_and_short_pause_stats.ipynb` | Computes long and short pause metrics. |   
-   
 | `Dataset_statistics/Group_statistics.ipynb` | Performs statistical analysis of extracted metrics. |  
-  
 | `Figures_and_Tables/` | Scripts for generating figures and tables. |  
 ---  
 
