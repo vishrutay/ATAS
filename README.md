@@ -16,6 +16,11 @@ The pipeline can also divide pauses into "long" and "short" categories based on 
 
 In this context, ATAS metrics are used to analyze speech data from adults who stutter (AWS) and adults who do not stutter (AWNS). Machine learning models, including Random Forest and Decision Trees, utilize these metrics to classify participants as AWS or AWNS based on their speech data, such as reading a passage. Additionally, combining ATAS metrics with time-series data enables the use of LSTM or Long Short-Term Memory models (a type recurrent neural network model specifically designed to process and analyze sequential data, such as time series) for the same classification task.      
 
+# Repository Navigation  
+Please refer to 'ATAS/Reproducing the Results and Using the ATAS Code for Independent Datasets/' for better navigating the repository.  
+
+# Running ATAS on a Single File  
+Please refer to 'ATAS/Running_a_Single_File/'.    
 
 # Citation 
 If you find this code useful in your research, please cite the following paper:
