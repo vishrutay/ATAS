@@ -1,4 +1,4 @@
-# Function and code file to analyze a single file  
+# Functions and code file to analyze a single file  
 
 ATAS_functions.ipynb: Contains all ATAS functions  
 
