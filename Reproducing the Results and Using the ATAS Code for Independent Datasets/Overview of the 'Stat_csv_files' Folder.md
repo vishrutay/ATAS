@@ -36,7 +36,7 @@ Used in specific Jupyter notebooks:
 | **AWNS_input.csv**             | Streamlined_ATAS_AWNS.ipynb    | Contains start and optional end time inputs for trimming the original file |  
 | **AWS_input.csv**              | Streamlined_ATAS_AWS.ipynb     | Contains start and optional end time inputs for trimming the original file |  
 | **AWS_SSI_details.csv**        | Compute_long_and_short_pause_stats.ipynb | Contains %SS scores and other stuttering-related metrics |  
-| **pval.csv**                   | Figure_5_6_7_8.ipynb          | Contains group analysis details for GLMs and Neg Binomial models |  
+| **pval.csv**                   | Figure_5_6_7_8.ipynb          | Contains group analysis details for GLMs and Neg Binomial models (Generated in Figures_and_Tables/Group_Statistics.ipynb) |  
   
 ### Relevant Columns for Analysis:  
 - **AWS_SSI_details.csv**: `Percent_syllables_stuttered`  
