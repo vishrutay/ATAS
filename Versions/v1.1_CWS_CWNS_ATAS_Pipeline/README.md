@@ -1,4 +1,4 @@
-# ATAS v1.1 — CWS/CWNS Speech Timing Analysis Pipeline
+# ATAS v1.1 — CWS/CWNS Speech Timing Analysis Pipeline for Children
 
 ATAS v1.1 is a CWS/CWNS-focused extension of the Automatic Temporal Speech Analysis (ATAS) workflow.
 
