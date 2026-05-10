@@ -1,7 +1,11 @@
 # ATAS
-A pipeline for automatic detection of silent pauses in speech  
+A pipeline for automatic detection of silent pauses in speech 
 (...and much more)
 
+## Versions and Extensions
+In addition to the original ATAS workflow for adults who stutter (AWS/AWNS), this repository also includes an extended pipeline for speech timing analysis in children who stutter (CWS/CWNS): `Versions/v1.1_CWS_CWNS_ATAS_Pipeline/`
+
+##
 This pipeline offers a flexible solution for understanding temporal speech patterns and analyzing stuttering-related metrics (in this context) or any other user-defined metrics, making it valuable for both research and clinical purposes.   
 
 
