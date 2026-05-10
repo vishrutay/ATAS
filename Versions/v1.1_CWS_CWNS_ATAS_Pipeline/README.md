@@ -11,6 +11,12 @@ This version includes an updated processing and project organization structure, 
 
 ---
 
+## Repository Status
+
+Additional processed output files will be uploaded following public release of the accompanying preprint.
+
+---
+
 # Overview
 
 This repository contains a complete notebook-based workflow for:
