@@ -49,7 +49,7 @@ Users should update `base_dir` to match the location of the project folder on th
 
 # Important Data Availability Notice
 
-⚠️ **Raw audio recordings are not included in this repository.**
+**Raw audio recordings are not included in this repository.**
 
 This repository may include notebooks, scripts, and derived CSV files, but it does not include the original raw audio recordings.
 
