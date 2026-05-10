@@ -24,7 +24,7 @@ Please refer to 'ATAS/Running_a_Single_File/'.
 
 # Citation 
 If you find this code useful in your research, please cite the following paper:
-Yawatkar, V., Chow, H. M., & Usler, E. R. (2023). Automatic Temporal Analysis of Speech: A Quick and Objective Pipeline for the Assessment of Overt Stuttering. PsyArXiv. https://doi.org/10.31234/osf.io/yu6f5 
+Yawatkar, V., Chow, H. M., & Usler, E. (2025). Automatic temporal analysis of speech: A quick and objective pipeline for the assessment of overt stuttering. Behavior Research Methods, 57(8), 228. https://doi.org/10.3758/s13428-025-02733-z
 
 # Acknowledgment
 Parts of this codebase are adapted from the following sources:
