@@ -1,0 +1,13 @@
+Language covariate,ATAS metric,N,"Partial correlation, r",p value,Effect size
+PPVT,Speech rate,30,0.42,.021,Moderate
+PPVT,Pause duration (s),30,-0.18,.347,Small
+PPVT,Mean speech duration (ms),30,0.13,.494,Small
+PPVT,Number of pause events,30,-0.29,.120,Small
+PPVT,Long pause events,30,-0.32,.085,Moderate
+PPVT,Short pause events,30,-0.35,.060,Moderate
+EVT,Speech rate,30,0.37,.046,Moderate
+EVT,Pause duration (s),30,-0.13,.495,Small
+EVT,Mean speech duration (ms),30,0.05,.801,Negligible
+EVT,Number of pause events,30,-0.22,.236,Small
+EVT,Long pause events,30,-0.25,.181,Small
+EVT,Short pause events,30,-0.28,.141,Small

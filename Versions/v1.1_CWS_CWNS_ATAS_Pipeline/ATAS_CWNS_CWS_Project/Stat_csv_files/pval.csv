@@ -1,0 +1,14 @@
+Metric,p-value
+CV_Pause,0.8816976336055183
+CV_Speech,0.36961179092000773
+Mean_Speech_s_ms,0.016281635119091187
+Pause_Events,0.0011173853263526654
+Speech_Rate,0.00604072202953796
+log_Mean_Pause_s_ms,0.1354580086512166
+log_Pause_Duration_s,0.0023864127529211253
+log_long_p_durations_cv,0.3029523914743645
+log_long_p_durations_mean_ms,0.07480121432371176
+long_p_count,0.0019005544894596929
+short_p_count,0.03959026721424158
+short_p_durations_cv,0.22896676659232995
+short_p_durations_mean_ms,0.7956191538025726
