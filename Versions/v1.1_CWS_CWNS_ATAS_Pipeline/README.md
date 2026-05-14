@@ -11,12 +11,6 @@ This version includes an updated processing and project organization structure, 
 
 ---
 
-## Repository Status
-
-Additional processed output files will be uploaded following public release of the accompanying preprint.
-
----
-
 # Overview
 
 This repository contains a complete notebook-based workflow for:
@@ -874,4 +868,4 @@ Yawatkar, V., Chow, H. M., & Usler, E. (2025). *Automatic temporal analysis of s
 
 ## ATAS v1.1 / CWS-CWNS Analysis
 
-Yawatkar, V., Chow, H. M., Garnett, E., Chang, S.-E., & Usler, E. (2026). *Automated temporal speech markers of childhood stuttering* (preprint forthcoming).
+Yawatkar, V., Chow, H. M., Garnett, E., Chang, S.-E., & Usler, E. (2026). *Automated temporal speech markers of childhood stuttering*. PsyArXiv. https://osf.io/preprints/psyarxiv/fvhk2_v1
